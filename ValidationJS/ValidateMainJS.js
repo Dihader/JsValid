@@ -46,15 +46,17 @@ function ValidateDate() {
             alert("Заполните все поля 'по какое число'");           
         }
         else {
-            if (isValidDate(sDay, sMonth, sYear) && isValidDate(eDay, eMonth, eYear)) {
-                var startDate = Date(sYear, sMonth, sDay);
-                var endDate = Date(eYear, eMonth, eDay);
+            if (isValidDate(sDay, sMonth, sYear) && isValidDate(eDay, eMonth, eYear)) {             
+                var startDate = new Date(sYear, sMonth-1, sDay);
+                var endDate = new  Date(eYear, eMonth-1, eDay);
                 if ((startDate <= endDate)) {
-
                     return true;
                 }
+                else {
+                    alert("С дата, должна быть меньше чем по.");
+                    return false;
+                }
 
-                return false;
             }
             else {
                 alert("Проверьте введенные даты");
