@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+       
+        #btnSubmit {
+            width: 150px;
+        }        
+        #txtEmail {
+            width: 210px;
+        }
+        #txtStartDate {
+            width: 70px;
+        }
+        #txtEndDate {
+            width: 70px;
+        }
+        #txtStartDate0 {
+            width: 70px;
+        }
+        #txtStartDate1 {
+            width: 70px;
+        }
+        #txtEndDate0 {
+            width: 70px;
+        }
+        #txtEndDate1 {
+            width: 70px;
+        }
+        #btnClear {
+            width: 150px;
+        }
+    </style>
+    <script src="ValidateMainJS.js"></script>
+</head>
+<body>
+    <form id="frmRegister" name="frmRegister" >
+        <table>
+            <tr>
+                <td>
+                    <label id="lblEmail" >Введите вашу электронную почту: </label>
+                </td>
+                <td>
+                    <input id="txtEmail" type="text"  />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="lblStartDate">Введите с какого числа(день, месяц,год):</label>
+                </td>
+                <td>
+                    <input id="txtStartDay" type="text"  />
+                    <input id="txtStartMonth" type="text"  />
+                    <input id="txtStartYear" type="text"  />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="lblEndDate" >Введите по какое число(день, месяц,год):</label>
+                </td>
+                <td>
+                    <input id="txtEndDay" type="text"  />
+                    <input id="txtEndMonth" type="text"  />
+                    <input id="txtEndYear" type="text"  />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="btnSubmit" type="button"  value="Отправить" onclick="ValidatePage()" />
+                </td>
+                <td>
+                    <input id="btnClear" type="reset" value="Очистить" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

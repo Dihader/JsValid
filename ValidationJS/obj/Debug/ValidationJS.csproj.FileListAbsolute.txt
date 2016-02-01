@@ -1,0 +1,5 @@
+D:\Учеба\5 курс\ИИСП\ValidationJS\ValidationJS\bin\ValidationJS.dll
+D:\Учеба\5 курс\ИИСП\ValidationJS\ValidationJS\bin\ValidationJS.pdb
+D:\Учеба\5 курс\ИИСП\ValidationJS\ValidationJS\obj\Debug\ValidationJS.csprojResolveAssemblyReference.cache
+D:\Учеба\5 курс\ИИСП\ValidationJS\ValidationJS\obj\Debug\ValidationJS.dll
+D:\Учеба\5 курс\ИИСП\ValidationJS\ValidationJS\obj\Debug\ValidationJS.pdb
